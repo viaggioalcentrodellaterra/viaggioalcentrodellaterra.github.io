@@ -104,4 +104,18 @@
 </table>
 <p>&nbsp;</p>
 <p><span style="color: #999999;">@&Dagger;<span style="color: #000000;"><strong>.</strong></span>&reg;&Phi;&forall;&loz;&Phi;&reg;<span style="color: #000000;"><strong>,</strong></span> &reg;&reg;<span style="color: #000000;"><strong>.</strong></span>&aelig;&reg;&Lambda;&Phi;&reg;&cap;</span></p>
-</center><center></center><center></center>
+</center><center></center><center>
+<script language="javascript">
+function pasuser(form) { 
+if (form.id.value=="SECRET_USER") { 
+if (form.pass.value=="SECRET_PASSWORD") { location="http://YOURDOMAIN.com/" } 
+else { alert("Wrong Password") } 
+} 
+else { alert("Wrong Username") } 
+} 
+</script>
+<form name="login">
+Username: < input name="id" size="6" type="text">
+Password: < input name="pass" size="6" type="password">
+<input value="Login" onclick="pasuser(this.form)" type="button">
+</form></center>
